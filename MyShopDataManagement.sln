@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShopDataManagement", "MyShopDataManagement\MyShopDataManagement.csproj", "{93325115-8299-4D10-949B-378361B4E2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDataAccess", "MySqlDataAccess\MySqlDataAccess.csproj", "{07173958-F1F3-4A68-BF41-42E806C94FA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93325115-8299-4D10-949B-378361B4E2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93325115-8299-4D10-949B-378361B4E2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93325115-8299-4D10-949B-378361B4E2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93325115-8299-4D10-949B-378361B4E2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07173958-F1F3-4A68-BF41-42E806C94FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07173958-F1F3-4A68-BF41-42E806C94FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07173958-F1F3-4A68-BF41-42E806C94FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07173958-F1F3-4A68-BF41-42E806C94FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A951612-4F15-4479-B673-089282C2DD87}
+	EndGlobalSection
+EndGlobal
