@@ -26,6 +26,10 @@ namespace MyShopDataManagement.Views.Controls
             myDataGrid.DataSource = people;
             getPeople = people;
 
+            
+        }
+        void values()
+        {
             foreach (DataGridViewCell item in myDataGrid.CurrentRow.Cells)
             {
                 list.Add(item.Value.ToString());
@@ -65,6 +69,7 @@ namespace MyShopDataManagement.Views.Controls
 
         private void updateBt_Click(object sender, EventArgs e)
         {
+            values();
             EditData dt = new EditData(list,myDataGrid);
 
             this.Controls.Add(dt);
@@ -81,10 +86,13 @@ namespace MyShopDataManagement.Views.Controls
         {
             if(myDataGrid.SelectedRows != null)
             {
+                values();
+
                 AccessData dt = new AccessData();
                 string value = myDataGrid.CurrentRow.Cells[0].Value.ToString();
 
-                var x = MessageBox.Show($"You wanna delete this data ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+                var x = MessageBox.Show($"You wanna delete ({list[0]}. {list[1]} {list[2]} {list[3]} {list[4]} {list[5]} {list[6]}) ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+                //var x = MessageBox.Show($"You wanna delete this data ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
 
                 if(x == DialogResult.Yes)
                 {
