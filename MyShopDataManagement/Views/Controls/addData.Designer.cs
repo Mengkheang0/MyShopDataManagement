@@ -59,15 +59,15 @@ namespace MyShopDataManagement.Views.Controls
             this.addBt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.addBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.addBt.DisabledState.Parent = this.addBt;
-            this.addBt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addBt.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.addBt.ForeColor = System.Drawing.Color.White;
             this.addBt.HoverState.Parent = this.addBt;
-            this.addBt.Location = new System.Drawing.Point(297, 441);
+            this.addBt.Location = new System.Drawing.Point(300, 441);
             this.addBt.Name = "addBt";
             this.addBt.ShadowDecoration.Parent = this.addBt;
             this.addBt.Size = new System.Drawing.Size(180, 45);
             this.addBt.TabIndex = 7;
-            this.addBt.Text = "ADD";
+            this.addBt.Text = "បញ្ចូលពត៏មាន";
             this.addBt.Click += new System.EventHandler(this.addBt_Click);
             // 
             // datePicker
@@ -92,35 +92,35 @@ namespace MyShopDataManagement.Views.Controls
             // guna2HtmlLabel7
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(404, 298);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(417, 307);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(67, 19);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(63, 29);
             this.guna2HtmlLabel7.TabIndex = 39;
-            this.guna2HtmlLabel7.Text = "TotalPrice";
+            this.guna2HtmlLabel7.Text = "ប្រាក់សរុប";
             // 
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(441, 186);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(407, 186);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(33, 19);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(73, 29);
             this.guna2HtmlLabel5.TabIndex = 40;
-            this.guna2HtmlLabel5.Text = "Date";
+            this.guna2HtmlLabel5.Text = "កាល​បរិច្ឆេទ";
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(38, 241);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(27, 244);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(67, 19);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(79, 29);
             this.guna2HtmlLabel3.TabIndex = 41;
-            this.guna2HtmlLabel3.Text = "LastName";
+            this.guna2HtmlLabel3.Text = "ឈ្មោះក្រោយ";
             // 
             // totalPriceBox
             // 
@@ -140,7 +140,7 @@ namespace MyShopDataManagement.Views.Controls
             this.totalPriceBox.ForeColor = System.Drawing.Color.White;
             this.totalPriceBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalPriceBox.HoverState.Parent = this.totalPriceBox;
-            this.totalPriceBox.Location = new System.Drawing.Point(497, 298);
+            this.totalPriceBox.Location = new System.Drawing.Point(497, 302);
             this.totalPriceBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.totalPriceBox.Name = "totalPriceBox";
             this.totalPriceBox.PasswordChar = '\0';
@@ -154,24 +154,24 @@ namespace MyShopDataManagement.Views.Controls
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(383, 240);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(424, 244);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(89, 19);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(53, 29);
             this.guna2HtmlLabel6.TabIndex = 42;
-            this.guna2HtmlLabel6.Text = "MinimizePrice";
+            this.guna2HtmlLabel6.Text = "តម្លៃមួយ";
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(52, 300);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(72, 307);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(56, 19);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(33, 29);
             this.guna2HtmlLabel4.TabIndex = 43;
-            this.guna2HtmlLabel4.Text = "Quantity";
+            this.guna2HtmlLabel4.Text = "ចំនួន";
             // 
             // lastNameBox
             // 
@@ -190,7 +190,7 @@ namespace MyShopDataManagement.Views.Controls
             this.lastNameBox.ForeColor = System.Drawing.Color.White;
             this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.lastNameBox.HoverState.Parent = this.lastNameBox;
-            this.lastNameBox.Location = new System.Drawing.Point(121, 232);
+            this.lastNameBox.Location = new System.Drawing.Point(121, 236);
             this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.PasswordChar = '\0';
@@ -218,7 +218,7 @@ namespace MyShopDataManagement.Views.Controls
             this.dateTime.ForeColor = System.Drawing.Color.White;
             this.dateTime.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.dateTime.HoverState.Parent = this.dateTime;
-            this.dateTime.Location = new System.Drawing.Point(497, 173);
+            this.dateTime.Location = new System.Drawing.Point(497, 177);
             this.dateTime.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dateTime.Name = "dateTime";
             this.dateTime.PasswordChar = '\0';
@@ -245,7 +245,7 @@ namespace MyShopDataManagement.Views.Controls
             this.minimizePriceBox.ForeColor = System.Drawing.Color.White;
             this.minimizePriceBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.minimizePriceBox.HoverState.Parent = this.minimizePriceBox;
-            this.minimizePriceBox.Location = new System.Drawing.Point(497, 232);
+            this.minimizePriceBox.Location = new System.Drawing.Point(497, 236);
             this.minimizePriceBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.minimizePriceBox.Name = "minimizePriceBox";
             this.minimizePriceBox.PasswordChar = '\0';
@@ -274,7 +274,7 @@ namespace MyShopDataManagement.Views.Controls
             this.quantityBox.ForeColor = System.Drawing.Color.White;
             this.quantityBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.quantityBox.HoverState.Parent = this.quantityBox;
-            this.quantityBox.Location = new System.Drawing.Point(121, 295);
+            this.quantityBox.Location = new System.Drawing.Point(121, 299);
             this.quantityBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.quantityBox.Name = "quantityBox";
             this.quantityBox.PasswordChar = '\0';
@@ -289,24 +289,24 @@ namespace MyShopDataManagement.Views.Controls
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Coolvetica Rg", 13.74545F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("!Khmer OS Siemreap", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(319, 31);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(289, 19);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(136, 23);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(188, 36);
             this.guna2HtmlLabel1.TabIndex = 44;
-            this.guna2HtmlLabel1.Text = "ADD PROPERTIES";
+            this.guna2HtmlLabel1.Text = "ពត័មានរបស់ផលិតផល";
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(38, 185);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(46, 186);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(67, 19);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(59, 29);
             this.guna2HtmlLabel2.TabIndex = 45;
-            this.guna2HtmlLabel2.Text = "FirstName";
+            this.guna2HtmlLabel2.Text = "ឈ្មោះមុខ";
             // 
             // firstNameBox
             // 
@@ -325,7 +325,7 @@ namespace MyShopDataManagement.Views.Controls
             this.firstNameBox.ForeColor = System.Drawing.Color.White;
             this.firstNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.firstNameBox.HoverState.Parent = this.firstNameBox;
-            this.firstNameBox.Location = new System.Drawing.Point(121, 173);
+            this.firstNameBox.Location = new System.Drawing.Point(121, 177);
             this.firstNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.firstNameBox.Name = "firstNameBox";
             this.firstNameBox.PasswordChar = '\0';
@@ -361,13 +361,13 @@ namespace MyShopDataManagement.Views.Controls
             // guna2HtmlLabel8
             // 
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(401, 127);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(344, 117);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(76, 19);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(133, 29);
             this.guna2HtmlLabel8.TabIndex = 40;
-            this.guna2HtmlLabel8.Text = "Select Date";
+            this.guna2HtmlLabel8.Text = "ជ្រើសរើសកាល​បរិច្ឆេទ";
             // 
             // addData
             // 
@@ -390,6 +390,7 @@ namespace MyShopDataManagement.Views.Controls
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.firstNameBox);
+            this.Font = new System.Drawing.Font("!Khmer OS Siemreap", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "addData";
             this.Size = new System.Drawing.Size(774, 546);
             this.ResumeLayout(false);

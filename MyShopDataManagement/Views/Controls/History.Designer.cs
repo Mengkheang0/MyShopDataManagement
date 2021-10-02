@@ -68,7 +68,7 @@ namespace MyShopDataManagement.Views.Controls
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.DisabledState.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Ebrima", 9.818182F);
+            this.guna2Button1.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(-1, 5);
@@ -76,7 +76,7 @@ namespace MyShopDataManagement.Views.Controls
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(137, 34);
             this.guna2Button1.TabIndex = 1;
-            this.guna2Button1.Text = "Restore";
+            this.guna2Button1.Text = "ទាញមករិញ";
             // 
             // deleteBt
             // 
@@ -89,15 +89,15 @@ namespace MyShopDataManagement.Views.Controls
             this.deleteBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.deleteBt.DisabledState.Parent = this.deleteBt;
             this.deleteBt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.deleteBt.Font = new System.Drawing.Font("Ebrima", 9.818182F);
+            this.deleteBt.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.deleteBt.ForeColor = System.Drawing.Color.White;
             this.deleteBt.HoverState.Parent = this.deleteBt;
-            this.deleteBt.Location = new System.Drawing.Point(142, 5);
+            this.deleteBt.Location = new System.Drawing.Point(162, 5);
             this.deleteBt.Name = "deleteBt";
             this.deleteBt.ShadowDecoration.Parent = this.deleteBt;
             this.deleteBt.Size = new System.Drawing.Size(137, 34);
             this.deleteBt.TabIndex = 1;
-            this.deleteBt.Text = "Delete";
+            this.deleteBt.Text = "លុបចោល";
             this.deleteBt.Click += new System.EventHandler(this.deleteBt_Click);
             // 
             // prop
@@ -154,13 +154,13 @@ namespace MyShopDataManagement.Views.Controls
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Ebrima", 10.12727F);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(0, 407);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(-2, 404);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(48, 21);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(72, 29);
             this.guna2HtmlLabel2.TabIndex = 5;
-            this.guna2HtmlLabel2.Text = "Output";
+            this.guna2HtmlLabel2.Text = "ប្រវត្តិសាស្រ្ត";
             // 
             // History
             // 

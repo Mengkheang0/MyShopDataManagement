@@ -37,6 +37,8 @@ namespace MyShopDataManagement.Views.Controls
             totalPriceBox.Text = data[6];
 
 
+            
+
 
         }
         private void exitBt_Click(object sender, EventArgs e)

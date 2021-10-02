@@ -29,9 +29,9 @@ namespace MyShopDataManagement.Views.Controls
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.myDataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.deleteBt = new Guna.UI2.WinForms.Guna2Button();
@@ -46,10 +46,10 @@ namespace MyShopDataManagement.Views.Controls
             this.myDataGrid.AllowUserToDeleteRows = false;
             this.myDataGrid.AllowUserToResizeColumns = false;
             this.myDataGrid.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Gray;
-            this.myDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Gray;
+            this.myDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.myDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -57,24 +57,24 @@ namespace MyShopDataManagement.Views.Controls
             this.myDataGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
             this.myDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.myDataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semilight", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.myDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semilight", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.myDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.myDataGrid.ColumnHeadersHeight = 30;
             this.myDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semilight", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.myDataGrid.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semilight", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.myDataGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.myDataGrid.EnableHeadersVisualStyles = false;
             this.myDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
             this.myDataGrid.Location = new System.Drawing.Point(0, 158);
@@ -114,13 +114,13 @@ namespace MyShopDataManagement.Views.Controls
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Coolvetica Rg", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("!Khmer OS Siemreap", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(601, 0);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(169, 31);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(160, 36);
             this.guna2HtmlLabel1.TabIndex = 4;
-            this.guna2HtmlLabel1.Text = "ADD SHOPDATA";
+            this.guna2HtmlLabel1.Text = "ទិន្ននយ័របស់ហាងខ្ញុំ";
             // 
             // deleteBt
             // 
@@ -134,7 +134,7 @@ namespace MyShopDataManagement.Views.Controls
             this.deleteBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.deleteBt.DisabledState.Parent = this.deleteBt;
             this.deleteBt.FillColor = System.Drawing.Color.Maroon;
-            this.deleteBt.Font = new System.Drawing.Font("Ebrima", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteBt.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.deleteBt.ForeColor = System.Drawing.Color.White;
             this.deleteBt.HoverState.Parent = this.deleteBt;
             this.deleteBt.Location = new System.Drawing.Point(1170, 90);
@@ -142,7 +142,7 @@ namespace MyShopDataManagement.Views.Controls
             this.deleteBt.ShadowDecoration.Parent = this.deleteBt;
             this.deleteBt.Size = new System.Drawing.Size(180, 45);
             this.deleteBt.TabIndex = 5;
-            this.deleteBt.Text = "Delete";
+            this.deleteBt.Text = "លុបពត័មាន";
             this.deleteBt.Click += new System.EventHandler(this.deleteBt_Click);
             // 
             // updateBt
@@ -157,7 +157,7 @@ namespace MyShopDataManagement.Views.Controls
             this.updateBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.updateBt.DisabledState.Parent = this.updateBt;
             this.updateBt.FillColor = System.Drawing.Color.Teal;
-            this.updateBt.Font = new System.Drawing.Font("Ebrima", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateBt.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.updateBt.ForeColor = System.Drawing.Color.White;
             this.updateBt.HoverState.Parent = this.updateBt;
             this.updateBt.Location = new System.Drawing.Point(968, 90);
@@ -165,7 +165,7 @@ namespace MyShopDataManagement.Views.Controls
             this.updateBt.ShadowDecoration.Parent = this.updateBt;
             this.updateBt.Size = new System.Drawing.Size(180, 45);
             this.updateBt.TabIndex = 5;
-            this.updateBt.Text = "Update";
+            this.updateBt.Text = "កែរពត៏មាន";
             this.updateBt.Click += new System.EventHandler(this.updateBt_Click);
             // 
             // addBt
@@ -180,7 +180,7 @@ namespace MyShopDataManagement.Views.Controls
             this.addBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.addBt.DisabledState.Parent = this.addBt;
             this.addBt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.addBt.Font = new System.Drawing.Font("Ebrima", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addBt.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.addBt.ForeColor = System.Drawing.Color.White;
             this.addBt.HoverState.Parent = this.addBt;
             this.addBt.Location = new System.Drawing.Point(772, 90);
@@ -188,7 +188,7 @@ namespace MyShopDataManagement.Views.Controls
             this.addBt.ShadowDecoration.Parent = this.addBt;
             this.addBt.Size = new System.Drawing.Size(180, 45);
             this.addBt.TabIndex = 5;
-            this.addBt.Text = "Add";
+            this.addBt.Text = "បញ្ចូលពត៏មាន";
             this.addBt.Click += new System.EventHandler(this.addBt_Click);
             // 
             // CRUD

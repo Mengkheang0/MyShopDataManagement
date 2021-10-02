@@ -99,7 +99,7 @@ namespace MyShopDataManagement.Views.Forms
             this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button3.DisabledState.Parent = this.guna2Button3;
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(91)))), ((int)(((byte)(102)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI Semilight", 8.818182F, System.Drawing.FontStyle.Bold);
+            this.guna2Button3.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.Parent = this.guna2Button3;
             this.guna2Button3.Image = global::MyShopDataManagement.Properties.Resources.map_48px;
@@ -110,7 +110,7 @@ namespace MyShopDataManagement.Views.Forms
             this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
             this.guna2Button3.Size = new System.Drawing.Size(252, 59);
             this.guna2Button3.TabIndex = 9;
-            this.guna2Button3.Text = "ACOUNTS";
+            this.guna2Button3.Text = "គណនី";
             this.guna2Button3.TextFormatNoPrefix = true;
             // 
             // myHistory
@@ -126,7 +126,7 @@ namespace MyShopDataManagement.Views.Forms
             this.myHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.myHistory.DisabledState.Parent = this.myHistory;
             this.myHistory.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(47)))), ((int)(((byte)(97)))));
-            this.myHistory.Font = new System.Drawing.Font("Segoe UI Semilight", 8.818182F, System.Drawing.FontStyle.Bold);
+            this.myHistory.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.myHistory.ForeColor = System.Drawing.Color.White;
             this.myHistory.HoverState.Parent = this.myHistory;
             this.myHistory.Image = ((System.Drawing.Image)(resources.GetObject("myHistory.Image")));
@@ -137,7 +137,7 @@ namespace MyShopDataManagement.Views.Forms
             this.myHistory.ShadowDecoration.Parent = this.myHistory;
             this.myHistory.Size = new System.Drawing.Size(252, 59);
             this.myHistory.TabIndex = 8;
-            this.myHistory.Text = "HISTORY";
+            this.myHistory.Text = "ប្រវត្តីសាស្រ្ត";
             this.myHistory.TextFormatNoPrefix = true;
             this.myHistory.Click += new System.EventHandler(this.myHistory_Click_1);
             // 
@@ -154,7 +154,7 @@ namespace MyShopDataManagement.Views.Forms
             this.myCRUD.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.myCRUD.DisabledState.Parent = this.myCRUD;
             this.myCRUD.FillColor = System.Drawing.Color.DarkSlateBlue;
-            this.myCRUD.Font = new System.Drawing.Font("Segoe UI Semilight", 8.818182F, System.Drawing.FontStyle.Bold);
+            this.myCRUD.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.myCRUD.ForeColor = System.Drawing.Color.White;
             this.myCRUD.HoverState.Parent = this.myCRUD;
             this.myCRUD.Image = global::MyShopDataManagement.Properties.Resources.stack_of_photos_48px;
@@ -165,7 +165,7 @@ namespace MyShopDataManagement.Views.Forms
             this.myCRUD.ShadowDecoration.Parent = this.myCRUD;
             this.myCRUD.Size = new System.Drawing.Size(252, 59);
             this.myCRUD.TabIndex = 7;
-            this.myCRUD.Text = "DATA";
+            this.myCRUD.Text = "ពត៏មាន";
             this.myCRUD.TextFormatNoPrefix = true;
             this.myCRUD.Click += new System.EventHandler(this.myCRUD_Click);
             // 
@@ -182,7 +182,7 @@ namespace MyShopDataManagement.Views.Forms
             this.myHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.myHome.DisabledState.Parent = this.myHome;
             this.myHome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(98)))), ((int)(((byte)(163)))));
-            this.myHome.Font = new System.Drawing.Font("Segoe UI Semilight", 8.818182F, System.Drawing.FontStyle.Bold);
+            this.myHome.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.myHome.ForeColor = System.Drawing.Color.White;
             this.myHome.HoverState.Parent = this.myHome;
             this.myHome.Image = global::MyShopDataManagement.Properties.Resources.albums_48px;
@@ -193,7 +193,7 @@ namespace MyShopDataManagement.Views.Forms
             this.myHome.ShadowDecoration.Parent = this.myHome;
             this.myHome.Size = new System.Drawing.Size(252, 59);
             this.myHome.TabIndex = 6;
-            this.myHome.Text = "HOME";
+            this.myHome.Text = "ផ្ទះ";
             this.myHome.TextFormatNoPrefix = true;
             this.myHome.Click += new System.EventHandler(this.myHome_Click);
             // 
@@ -303,7 +303,7 @@ namespace MyShopDataManagement.Views.Forms
             this.searchBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
             this.searchBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.searchBox.FocusedState.Parent = this.searchBox;
-            this.searchBox.Font = new System.Drawing.Font("Ebrima", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchBox.Font = new System.Drawing.Font("!Khmer OS Siemreap", 11.25F);
             this.searchBox.ForeColor = System.Drawing.Color.White;
             this.searchBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.searchBox.HoverState.Parent = this.searchBox;
@@ -312,7 +312,7 @@ namespace MyShopDataManagement.Views.Forms
             this.searchBox.Name = "searchBox";
             this.searchBox.PasswordChar = '\0';
             this.searchBox.PlaceholderForeColor = System.Drawing.Color.White;
-            this.searchBox.PlaceholderText = "Search";
+            this.searchBox.PlaceholderText = "ស្វែងរក";
             this.searchBox.SelectedText = "";
             this.searchBox.ShadowDecoration.Parent = this.searchBox;
             this.searchBox.Size = new System.Drawing.Size(802, 30);
