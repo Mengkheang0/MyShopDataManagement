@@ -37,7 +37,7 @@ this are some pictrues of this system
 <br>
 **There are some bugs in it!! We'll fixed it soon!!** 
 
-<h2>Btw i forget we'll have to version of this application</h2>
+<h2>Btw i forget we'll have two version of this application</h2>
 <ul>
   <li>
     <a href="https://github.com/Mengkheang0/MyShopDataManagement/tree/Khmer_version">Khmer Version</a>
