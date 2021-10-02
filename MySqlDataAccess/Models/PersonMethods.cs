@@ -14,5 +14,14 @@ namespace MySqlDataAccess.Models
 
             return Output;
         }
+
+        public List<GetPersonData> GetPeopleData(Person person,List<Person> listPeople)
+        {
+            List<GetPersonData> data = new List<GetPersonData>();
+            data = person.Copy(listPeople);
+            return data;
+        }
+
+
     }
 }

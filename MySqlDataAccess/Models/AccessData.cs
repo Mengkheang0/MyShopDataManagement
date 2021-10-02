@@ -17,6 +17,7 @@ namespace MySqlDataAccess.Models
             using(IDbConnection connection =new System.Data.SqlClient.SqlConnection(GetConnectionString.ConString("ShopDB")))
             {
                 var output = connection.Query<Person>("dbo.People_Select").ToList();
+
                 return output;
             }
         }
@@ -32,5 +33,42 @@ namespace MySqlDataAccess.Models
                 return output;
             }
         }
+        //Delete Data
+        public List<Person> DeleteData(int id)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GetConnectionString.ConString("ShopDB")))
+            {
+                var output = connection.Query<Person>("dbo.People_Delete @Id", new{ Id =id}).ToList();
+                
+                return output;
+            }
+        }
+
+        //Update Data
+        public List<Person> UpdateData(int id,string firstName,string lastName,float quantity,string date,float minimizePrice,float totalPrice)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GetConnectionString.ConString("ShopDB")))
+            {
+                var output = connection.Query<Person>("dbo.People_Update @Id ,@FirstName,@LastName,@Quantity ,@Date,@MinimizePrice,@TotalPrice", 
+                    
+                    new { Id = id , FirstName = firstName, LastName =lastName,Quantity = quantity,Date =date,MiniMizePrice = minimizePrice,TotalPrice = totalPrice}).ToList();
+
+                return output;
+            }
+        }
+
+        //Add Data
+        public List<Person> AddData(string firstName, string lastName, float quantity, string date, float minimizePrice, float totalPrice)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GetConnectionString.ConString("ShopDB")))
+            {
+                var output = connection.Query<Person>("dbo.People_Insert @FirstName,@LastName,@Quantity ,@Date,@MinimizePrice,@TotalPrice",
+
+                    new { FirstName = firstName, LastName = lastName, Quantity = quantity, Date = date, MiniMizePrice = minimizePrice, TotalPrice = totalPrice }).ToList();
+
+                return output;
+            }
+        }
     }
+
 }

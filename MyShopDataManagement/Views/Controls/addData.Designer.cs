@@ -1,0 +1,420 @@
+﻿
+namespace MyShopDataManagement.Views.Controls
+{
+    partial class addData
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.addBt = new Guna.UI2.WinForms.Guna2Button();
+            this.datePicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.totalPriceBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lastNameBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.dateTime = new Guna.UI2.WinForms.Guna2TextBox();
+            this.minimizePriceBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.quantityBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.firstNameBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.exitBt = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.SuspendLayout();
+            // 
+            // addBt
+            // 
+            this.addBt.BorderRadius = 4;
+            this.addBt.BorderThickness = 1;
+            this.addBt.CheckedState.Parent = this.addBt;
+            this.addBt.CustomImages.Parent = this.addBt;
+            this.addBt.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addBt.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addBt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addBt.DisabledState.Parent = this.addBt;
+            this.addBt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addBt.ForeColor = System.Drawing.Color.White;
+            this.addBt.HoverState.Parent = this.addBt;
+            this.addBt.Location = new System.Drawing.Point(297, 441);
+            this.addBt.Name = "addBt";
+            this.addBt.ShadowDecoration.Parent = this.addBt;
+            this.addBt.Size = new System.Drawing.Size(180, 45);
+            this.addBt.TabIndex = 7;
+            this.addBt.Text = "ADD";
+            this.addBt.Click += new System.EventHandler(this.addBt_Click);
+            // 
+            // datePicker
+            // 
+            this.datePicker.BorderRadius = 4;
+            this.datePicker.CheckedState.Parent = this.datePicker;
+            this.datePicker.FillColor = System.Drawing.Color.Gray;
+            this.datePicker.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.datePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.datePicker.HoverState.Parent = this.datePicker;
+            this.datePicker.ImeMode = System.Windows.Forms.ImeMode.Katakana;
+            this.datePicker.Location = new System.Drawing.Point(497, 111);
+            this.datePicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.datePicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.ShadowDecoration.Parent = this.datePicker;
+            this.datePicker.Size = new System.Drawing.Size(222, 35);
+            this.datePicker.TabIndex = 0;
+            this.datePicker.Value = new System.DateTime(2021, 10, 2, 11, 36, 23, 134);
+            this.datePicker.ValueChanged += new System.EventHandler(this.datePicker_ValueChanged);
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(404, 298);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(67, 19);
+            this.guna2HtmlLabel7.TabIndex = 39;
+            this.guna2HtmlLabel7.Text = "TotalPrice";
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(441, 186);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(33, 19);
+            this.guna2HtmlLabel5.TabIndex = 40;
+            this.guna2HtmlLabel5.Text = "Date";
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(38, 241);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(67, 19);
+            this.guna2HtmlLabel3.TabIndex = 41;
+            this.guna2HtmlLabel3.Text = "LastName";
+            // 
+            // totalPriceBox
+            // 
+            this.totalPriceBox.BorderRadius = 4;
+            this.totalPriceBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.totalPriceBox.DefaultText = "";
+            this.totalPriceBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.totalPriceBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.totalPriceBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalPriceBox.DisabledState.Parent = this.totalPriceBox;
+            this.totalPriceBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalPriceBox.Enabled = false;
+            this.totalPriceBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.totalPriceBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalPriceBox.FocusedState.Parent = this.totalPriceBox;
+            this.totalPriceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPriceBox.ForeColor = System.Drawing.Color.White;
+            this.totalPriceBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalPriceBox.HoverState.Parent = this.totalPriceBox;
+            this.totalPriceBox.Location = new System.Drawing.Point(497, 298);
+            this.totalPriceBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.totalPriceBox.Name = "totalPriceBox";
+            this.totalPriceBox.PasswordChar = '\0';
+            this.totalPriceBox.PlaceholderForeColor = System.Drawing.Color.White;
+            this.totalPriceBox.PlaceholderText = "";
+            this.totalPriceBox.SelectedText = "";
+            this.totalPriceBox.ShadowDecoration.Parent = this.totalPriceBox;
+            this.totalPriceBox.Size = new System.Drawing.Size(222, 34);
+            this.totalPriceBox.TabIndex = 6;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(383, 240);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(89, 19);
+            this.guna2HtmlLabel6.TabIndex = 42;
+            this.guna2HtmlLabel6.Text = "MinimizePrice";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(52, 300);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(56, 19);
+            this.guna2HtmlLabel4.TabIndex = 43;
+            this.guna2HtmlLabel4.Text = "Quantity";
+            // 
+            // lastNameBox
+            // 
+            this.lastNameBox.BorderRadius = 4;
+            this.lastNameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lastNameBox.DefaultText = "";
+            this.lastNameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.lastNameBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.lastNameBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lastNameBox.DisabledState.Parent = this.lastNameBox;
+            this.lastNameBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lastNameBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lastNameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.lastNameBox.FocusedState.Parent = this.lastNameBox;
+            this.lastNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastNameBox.ForeColor = System.Drawing.Color.White;
+            this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.lastNameBox.HoverState.Parent = this.lastNameBox;
+            this.lastNameBox.Location = new System.Drawing.Point(121, 232);
+            this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.lastNameBox.Name = "lastNameBox";
+            this.lastNameBox.PasswordChar = '\0';
+            this.lastNameBox.PlaceholderText = "";
+            this.lastNameBox.SelectedText = "";
+            this.lastNameBox.ShadowDecoration.Parent = this.lastNameBox;
+            this.lastNameBox.Size = new System.Drawing.Size(220, 37);
+            this.lastNameBox.TabIndex = 2;
+            // 
+            // dateTime
+            // 
+            this.dateTime.BorderRadius = 4;
+            this.dateTime.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.dateTime.DefaultText = "";
+            this.dateTime.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.dateTime.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dateTime.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.dateTime.DisabledState.Parent = this.dateTime;
+            this.dateTime.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.dateTime.Enabled = false;
+            this.dateTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dateTime.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.dateTime.FocusedState.Parent = this.dateTime;
+            this.dateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTime.ForeColor = System.Drawing.Color.White;
+            this.dateTime.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.dateTime.HoverState.Parent = this.dateTime;
+            this.dateTime.Location = new System.Drawing.Point(497, 173);
+            this.dateTime.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dateTime.Name = "dateTime";
+            this.dateTime.PasswordChar = '\0';
+            this.dateTime.PlaceholderText = "";
+            this.dateTime.SelectedText = "";
+            this.dateTime.ShadowDecoration.Parent = this.dateTime;
+            this.dateTime.Size = new System.Drawing.Size(222, 38);
+            this.dateTime.TabIndex = 4;
+            // 
+            // minimizePriceBox
+            // 
+            this.minimizePriceBox.BorderRadius = 4;
+            this.minimizePriceBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.minimizePriceBox.DefaultText = "";
+            this.minimizePriceBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.minimizePriceBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.minimizePriceBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.minimizePriceBox.DisabledState.Parent = this.minimizePriceBox;
+            this.minimizePriceBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.minimizePriceBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.minimizePriceBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.minimizePriceBox.FocusedState.Parent = this.minimizePriceBox;
+            this.minimizePriceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minimizePriceBox.ForeColor = System.Drawing.Color.White;
+            this.minimizePriceBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.minimizePriceBox.HoverState.Parent = this.minimizePriceBox;
+            this.minimizePriceBox.Location = new System.Drawing.Point(497, 232);
+            this.minimizePriceBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.minimizePriceBox.Name = "minimizePriceBox";
+            this.minimizePriceBox.PasswordChar = '\0';
+            this.minimizePriceBox.PlaceholderText = "";
+            this.minimizePriceBox.SelectedText = "";
+            this.minimizePriceBox.ShadowDecoration.Parent = this.minimizePriceBox;
+            this.minimizePriceBox.Size = new System.Drawing.Size(222, 37);
+            this.minimizePriceBox.TabIndex = 5;
+            this.minimizePriceBox.TextChanged += new System.EventHandler(this.minimizePriceBox_TextChanged);
+            this.minimizePriceBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.minimizePriceBox_KeyPress);
+            // 
+            // quantityBox
+            // 
+            this.quantityBox.BorderRadius = 4;
+            this.quantityBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.quantityBox.DefaultText = "";
+            this.quantityBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.quantityBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.quantityBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.quantityBox.DisabledState.Parent = this.quantityBox;
+            this.quantityBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.quantityBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.quantityBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.quantityBox.FocusedState.Parent = this.quantityBox;
+            this.quantityBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quantityBox.ForeColor = System.Drawing.Color.White;
+            this.quantityBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.quantityBox.HoverState.Parent = this.quantityBox;
+            this.quantityBox.Location = new System.Drawing.Point(121, 295);
+            this.quantityBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.quantityBox.Name = "quantityBox";
+            this.quantityBox.PasswordChar = '\0';
+            this.quantityBox.PlaceholderText = "";
+            this.quantityBox.SelectedText = "";
+            this.quantityBox.ShadowDecoration.Parent = this.quantityBox;
+            this.quantityBox.Size = new System.Drawing.Size(220, 37);
+            this.quantityBox.TabIndex = 3;
+            this.quantityBox.TextChanged += new System.EventHandler(this.quantityBox_TextChanged);
+            this.quantityBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.quantityBox_KeyPress);
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Coolvetica Rg", 13.74545F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(319, 31);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(136, 23);
+            this.guna2HtmlLabel1.TabIndex = 44;
+            this.guna2HtmlLabel1.Text = "ADD PROPERTIES";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(38, 185);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(67, 19);
+            this.guna2HtmlLabel2.TabIndex = 45;
+            this.guna2HtmlLabel2.Text = "FirstName";
+            // 
+            // firstNameBox
+            // 
+            this.firstNameBox.BorderRadius = 4;
+            this.firstNameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.firstNameBox.DefaultText = "";
+            this.firstNameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.firstNameBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.firstNameBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.firstNameBox.DisabledState.Parent = this.firstNameBox;
+            this.firstNameBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.firstNameBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.firstNameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.firstNameBox.FocusedState.Parent = this.firstNameBox;
+            this.firstNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstNameBox.ForeColor = System.Drawing.Color.White;
+            this.firstNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.firstNameBox.HoverState.Parent = this.firstNameBox;
+            this.firstNameBox.Location = new System.Drawing.Point(121, 173);
+            this.firstNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.firstNameBox.Name = "firstNameBox";
+            this.firstNameBox.PasswordChar = '\0';
+            this.firstNameBox.PlaceholderText = "";
+            this.firstNameBox.SelectedText = "";
+            this.firstNameBox.ShadowDecoration.Parent = this.firstNameBox;
+            this.firstNameBox.Size = new System.Drawing.Size(220, 38);
+            this.firstNameBox.TabIndex = 1;
+            // 
+            // exitBt
+            // 
+            this.exitBt.BorderRadius = 4;
+            this.exitBt.CheckedState.Parent = this.exitBt;
+            this.exitBt.CustomImages.Parent = this.exitBt;
+            this.exitBt.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.exitBt.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.exitBt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.exitBt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.exitBt.DisabledState.Parent = this.exitBt;
+            this.exitBt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.exitBt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.exitBt.ForeColor = System.Drawing.Color.White;
+            this.exitBt.HoverState.Parent = this.exitBt;
+            this.exitBt.Image = global::MyShopDataManagement.Properties.Resources.delete_sign_512px2;
+            this.exitBt.ImageSize = new System.Drawing.Size(40, 40);
+            this.exitBt.Location = new System.Drawing.Point(700, 0);
+            this.exitBt.Name = "exitBt";
+            this.exitBt.ShadowDecoration.Parent = this.exitBt;
+            this.exitBt.Size = new System.Drawing.Size(74, 38);
+            this.exitBt.TabIndex = 48;
+            this.exitBt.Click += new System.EventHandler(this.exitBt_Click);
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(401, 127);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(76, 19);
+            this.guna2HtmlLabel8.TabIndex = 40;
+            this.guna2HtmlLabel8.Text = "Select Date";
+            // 
+            // addData
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.Controls.Add(this.exitBt);
+            this.Controls.Add(this.addBt);
+            this.Controls.Add(this.datePicker);
+            this.Controls.Add(this.guna2HtmlLabel7);
+            this.Controls.Add(this.guna2HtmlLabel8);
+            this.Controls.Add(this.guna2HtmlLabel5);
+            this.Controls.Add(this.guna2HtmlLabel3);
+            this.Controls.Add(this.totalPriceBox);
+            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.guna2HtmlLabel4);
+            this.Controls.Add(this.lastNameBox);
+            this.Controls.Add(this.dateTime);
+            this.Controls.Add(this.minimizePriceBox);
+            this.Controls.Add(this.quantityBox);
+            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.guna2HtmlLabel2);
+            this.Controls.Add(this.firstNameBox);
+            this.Name = "addData";
+            this.Size = new System.Drawing.Size(774, 546);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2Button addBt;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePicker;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2TextBox totalPriceBox;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2TextBox lastNameBox;
+        private Guna.UI2.WinForms.Guna2TextBox dateTime;
+        private Guna.UI2.WinForms.Guna2TextBox minimizePriceBox;
+        private Guna.UI2.WinForms.Guna2TextBox quantityBox;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2TextBox firstNameBox;
+        private Guna.UI2.WinForms.Guna2Button exitBt;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
+    }
+}
