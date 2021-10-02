@@ -121,19 +121,28 @@
   <data name="stack_of_photos_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stack_of_photos_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="albums_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\albums_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_512px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_512px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="collage_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\collage_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="time_machine_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\time_machine_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="windows_10_store_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windows_10_store_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="albums_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\albums_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="time_machine_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_machine_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="map_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_512px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_512px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
