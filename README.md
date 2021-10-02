@@ -39,7 +39,11 @@ this are some pictrues of this system
 
 <h2>Btw i forget we'll have to version of this application</h2>
 <ul>
-  <li>Khmer Version</li>
-  <li>English Version</li>
+  <li>
+    <a href="https://github.com/Mengkheang0/MyShopDataManagement/tree/Khmer_version">Khmer Version</a>
+  </li>
+  <li>
+    <a href="https://github.com/Mengkheang0/MyShopDataManagement/tree/add_CRUD_featured">English Version</a>
+   </li>
   
   </ul>
