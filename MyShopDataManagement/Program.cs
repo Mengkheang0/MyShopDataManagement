@@ -16,7 +16,7 @@ namespace MyShopDataManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Views.Forms.mainForm());
+            Application.Run(new Views.Forms.FlashScreen());
         }
     }
 }
