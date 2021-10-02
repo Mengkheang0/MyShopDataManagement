@@ -34,6 +34,6 @@ this are some pictrues of this system
     <img src="https://user-images.githubusercontent.com/79799497/135720130-e00eba54-abf8-4a77-ba27-f9606876d23d.PNG" width="800px"></img>    
   </li>
 </ul>
-
-**There are some bugs in it!!** 
+<br>
+**There are some bugs in it!! We'll fixed it soon!!** 
 
